@@ -1,0 +1,28 @@
+body{
+    font-family: Verdana;
+    font-size: 2em;
+}
+
+#Count{
+    display: block;
+    text-align: center;
+    font-size: 6em;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#ButtonContainer{
+    text-align: center;
+}
+.buttons{
+    padding: 10px 20px;
+    font-size: 0.5em;
+    color:aqua;
+    background-color: gray;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.25;
+
+}
+.buttons:hover{
+    background-color: black;
+}
