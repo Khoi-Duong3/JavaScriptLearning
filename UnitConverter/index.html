@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Converter</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <form id="form1">
+
+        <h1>Temperature Converter</h1>
+        <input type="number" id="tempBox" placeholder="°C/F"><br>
+        <input type="radio" id="toFahrenheit" name="temp">
+        <label for="toFahrenheit">Celsius → Fahrenheit</label><br><br>
+        <input type="radio" id="toCelsius" name="temp">
+        <label for="toCelcius">Fahrenheit → Celsius</label><br><br>
+
+        <button type="button" onclick="convertTemp()">Convert</button>
+        <p id="tempResult">0°C/F</p>
+
+    </form><br><br>
+
+    <form id="form2">
+
+        <h1>Mass Converter</h1>
+        <input type="number" id="massBox" placeholder="kg/lbs"><br>
+        <input type="radio" id="tolbs" name="mass">
+        <label for="tolbs">Kilogram → Pound</label><br><br>
+        <input type="radio" id="tokg" name="mass">
+        <label for="tokg">Pound → Kilogram</label><br><br>
+
+        <button type="button" onclick="convertMass()">Convert</button>
+        <p id="massResult">0 kg/lbs</p>
+
+    </form><br><br>
+
+    <form id="form3">
+
+        <h1>Height Converter</h1>
+        <input type="number" id="heightBox"  placeholder="ft/cm"><br>
+        <input type="number" id="inches"  placeholder="in"><br>
+        <input type="radio" id="toft" name="height">
+        <label for="toft">Centimetre → Feet</label><br><br>
+        <input type="radio" id="tocm" name="height">
+        <label for="tocm">Feet → Centimetre</label><br><br>
+
+        <button type="button" onclick="convertHeight()">Convert</button>
+        <p id="heightResult">0 cm/ft, in</p>
+
+    </form><br><br>
+
+    <form id="form4">
+
+        <h1>Distance Converter</h1>
+        <input type="number" id="distanceBox"  placeholder="km/miles"><br>
+        <input type="radio" id="tokm" name="distance">
+        <label for="tokm">Mile → Kilometre</label><br><br>
+        <input type="radio" id="tomile" name="distance">
+        <label for="tomile">Kilometre → Mile</label><br><br>
+
+        <button type="button" onclick="convertDistance()">Convert</button>
+        <p id="distanceResult">0 km/mile</p>
+
+    </form>
+
+
+    <script src="index.js"></script>
+</body>
+</html>
